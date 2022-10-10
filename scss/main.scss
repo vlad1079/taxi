@@ -1,4 +1,5 @@
 $fontRF: 'RF Dewi Expanded';
+$fontDewi: 'RF Dewi';
 @import 'font/stylesheet.css';
 html , body {
   box-sizing: border-box;
@@ -134,10 +135,12 @@ header.header {
     color: #fff;
     padding-top: 45px;
     font-family: $fontRF;
+    padding-bottom: 116px;
     .about_us {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 139px;
     }
   }
 
@@ -172,60 +175,162 @@ header.header {
   .main_about_us_plus {
     display: flex;
     justify-content: space-between;
-}
-
-.main_about_us_plus_left {
-
-  .main_about_us_plus_left_title {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
   }
-  &>div {
-    display: flex;
-    column-gap: 23px;
-    align-items: center;
-    // max-width: 552px;
 
+  .main_about_us_plus_left {
+
+    .main_about_us_plus_left_title {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      margin-bottom: 36px;
+    }
     &>div {
-      width: 19px;
-      height: 19px;
-      border-radius: 50%;
-      background: #00BF63;
+      display: flex;
+      column-gap: 23px;
+      align-items: center;
+
+      &>div {
+        width: 19px;
+        height: 19px;
+        border-radius: 50%;
+        background: #00BF63;
+      }
+      &>p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        opacity: 0.6;
+        max-width: 379px;
+      }
     }
-    &>p {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      opacity: 0.6;
-      max-width: 379px;
+    &>div:nth-of-type(1) {
+      margin-bottom: 36px;
+    }
+    &>div:nth-of-type(2) {
+      margin-bottom: 24px;
+    }
+    &>div:nth-of-type(3) {
+      margin-bottom: 54px;
+    }
+    .main_about_us_plus_left_consult {
+      &>button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 157.4%;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        padding: 13.5px 21px;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+      &>a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 157.4%;
+        color: #fff;
+      }
     }
   }
-  .main_about_us_plus_left_consult {
-    &>button {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 157.4%;
-      text-align: center;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
-      border-radius: 20px;
-      padding: 13.5px 21px;
-      border: 1px solid #fff;
-      color: #fff;
-    }
-    &>a {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 157.4%;
-      color: #fff;
+  .main_about_us_plus_right {
+    &>img {
+      max-width: 694px;
     }
   }
-}
-.main_about_us_plus_right {
-  &>img {
-    max-width: 694px;
+  .main_our_advantages {
+    background-image: url('../image/main/our_advantages/advantage.png');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #404040;
+    mix-blend-mode: hard-light;
+    // opacity: 0.35;
+    font-family: $fontRF;
+    color: #fff;
+    padding-bottom: 105px;
+
+    .main_our_advantages_block {
+      max-width: 1023px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+
+      .main_our_advantages_block_title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 129.19%;
+        text-align: center;
+      padding-top: 66px;
+        margin-bottom: 25px;
+      }
+      .main_our_advantages_cont {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(6px);
+        border-radius: 42px;
+        padding: 54px 40px 44px 39px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 44px 0;
+        // justify-content: space-between;
+
+        &>div:nth-of-type(2) {
+          &>img {
+            padding: 15px;
+            background-color: #2BE3A0;
+          }
+        }
+        &>div:nth-of-type(3) {
+          &>img {
+            padding: 14px;
+            background-color: #2BE3A0;
+          }
+        }
+        &>div:nth-of-type(4) {
+          &>img {
+            padding: 14px 17px;
+            background-color: #FFBF44;
+          }
+        }
+        &>div:nth-of-type(5) {
+          max-width: 256px;
+          &>img {
+            padding: 14px;
+            background-color: #FFBF44;
+          }
+        }
+        &>div:nth-of-type(6) {
+
+          &>img {
+            padding: 14px;
+            background-color: #FFBF44;
+          }
+        }
+
+        .main_our_advantages_cont_card {
+          max-width: 236px;
+          &>img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 12px;
+          }
+          &>p {
+            font-family: $fontDewi;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 157.4%;
+            text-align: center;
+            padding-top: 18px;
+          }
+        }
+      }
+    }
   }
-}
+  .main_reviews {
+    background-image: url('../image/main/reviews/image 263.png');
+    mix-blend-mode: difference;
+    background-color: #404040;
+    // opacity: 0.4;
+    padding-top: 100px;
+  }
 }
