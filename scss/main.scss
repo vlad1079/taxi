@@ -331,6 +331,7 @@ header.header {
     mix-blend-mode: difference;
     background-color: #404040;
     color: #fff;
+    padding-bottom: 138px;
 
     .main_reviews_title {
       font-family: $fontRF;
@@ -397,6 +398,68 @@ header.header {
       }
     }
 
+  }
+
+  .main_call {
+    background-image: url('../image/main/main_call/main_call.png');
+    background-color: #404040;
+    padding-top: 85px;
+    padding: 85px 175px 107px 80px;
+
+    &>h2 {
+      font-family: $fontRF;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 54px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-bottom: 42px;
+    }
+
+    .main_call_fl {
+      display: flex;
+
+      &>.main_call_left {
+        max-width: 617px;
+  
+        img {
+          object-fit: cover;
+          
+          width: 100%;
+        }
+      }
+
+      .main_call_right {
+        color: #FFFFFF;
+
+        &>div {
+          display: flex;
+          column-gap: 33px;
+          align-items: center;
+        }
+        &>div>span {
+            height: 19px;
+            width: 19px;
+            border-radius: 50%;
+            background-color: #3BE893;
+        }
+        &>div:nth-of-type(1)>p {
+          max-width: 258px;
+        }
+        &>div:nth-of-type(2)>p {
+          max-width: 265px;
+        }
+        &>div:nth-of-type(3)>p {
+          max-width: 350px;
+        }
+        &>div>p {
+            font-family: $fontDewi;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+      }
+    }
   }
 
 
