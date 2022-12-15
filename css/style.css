@@ -296,7 +296,6 @@ header.header {
 .main .main_call {
   background-image: url("../image/main/main_call/main_call.png");
   background-color: #404040;
-  padding-top: 85px;
   padding: 85px 175px 107px 80px; }
   .main .main_call > h2 {
     font-family: "RF Dewi Expanded";
@@ -344,5 +343,46 @@ header.header {
         font-weight: 600;
         font-size: 16px;
         line-height: 19px; }
+.main .main_join {
+  background-image: url("../image/main/main_join/join.jpg");
+  padding: 86px 189px 80px 132px;
+  font-family: "RF Dewi Expanded";
+  color: #fff;
+  display: flex; }
+  .main .main_join .main_join_left > h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    max-width: 736px;
+    margin-bottom: 20px; }
+  .main .main_join .main_join_left > p {
+    font-family: "RF Dewi";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.6; }
+  .main .main_join .main_join_right {
+    max-width: 343px; }
+    .main .main_join .main_join_right > input {
+      width: 34ch;
+      display: inline-block;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(2px);
+      padding: 15px 0 16px 34px;
+      margin-bottom: 18px; }
+    .main .main_join .main_join_right > input[type="text"], .main .main_join .main_join_right input[type="tel"] {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      opacity: 0.6; }
+    .main .main_join .main_join_right > button {
+      width: 100%;
+      display: inline-block;
+      padding: 15px 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #000; }
 
 /*# sourceMappingURL=style.css.map */
