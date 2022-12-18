@@ -345,10 +345,11 @@ header.header {
         line-height: 19px; }
 .main .main_join {
   background-image: url("../image/main/main_join/join.jpg");
-  padding: 86px 189px 80px 132px;
+  padding: 86px 189px 50px 132px;
   font-family: "RF Dewi Expanded";
   color: #fff;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .main .main_join .main_join_left > h2 {
     font-weight: 700;
     font-size: 36px;
