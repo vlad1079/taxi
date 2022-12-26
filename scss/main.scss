@@ -403,7 +403,8 @@ header.header {
   .main_call {
     background-image: url('../image/main/main_call/main_call.png');
     background-color: #404040;
-    padding: 85px 175px 107px 80px;
+    // padding: 85px 175px 107px 80px;
+    padding-bottom: 107px;
 
     &>h2 {
       font-family: $fontRF;
@@ -412,7 +413,8 @@ header.header {
       line-height: 54px;
       text-align: center;
       color: #FFFFFF;
-      padding-bottom: 42px;
+      // padding-bottom: 42px;
+      padding: 85px 175px 42px 80px;
     }
 
     .main_call_fl {
@@ -526,6 +528,10 @@ header.header {
         color: #000;
       }
     }
+  }
+
+  .main_working {
+    
   }
 
 
