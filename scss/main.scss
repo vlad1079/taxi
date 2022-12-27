@@ -403,7 +403,8 @@ header.header {
   .main_call {
     background-image: url('../image/main/main_call/main_call.png');
     background-color: #404040;
-    padding: 85px 175px 107px 80px;
+    // padding: 85px 175px 107px 80px;
+    padding-bottom: 107px;
 
     &>h2 {
       font-family: $fontRF;
@@ -412,7 +413,8 @@ header.header {
       line-height: 54px;
       text-align: center;
       color: #FFFFFF;
-      padding-bottom: 42px;
+      // padding-bottom: 42px;
+      padding: 85px 175px 42px 80px;
     }
 
     .main_call_fl {
@@ -474,10 +476,17 @@ header.header {
 
   .main_join {
     background-image: url('../image/main/main_join/join.jpg');
-    padding: 86px 189px 80px 132px;
+    padding: 86px 0 50px 0;
     font-family: $fontRF;
     color: #fff;
-    display: flex;
+
+    .main_join_container {
+      max-width: 1129px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 0 15px 0 15px;
+    }
 
     .main_join_left {
     &>h2 {
@@ -526,6 +535,36 @@ header.header {
       }
     }
   }
+.main_we_are_working {
+  background-image: url("../image/main/we_are_working/map.png"), linear-gradient(180deg, rgba(30, 30, 30, 0.76) 0%, #000000 100%);
+  padding-top: 105px;
+
+  &>h2 {
+    font-family: $fontRF;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 54px;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 40px;
+  }
+
+  .main_we_are_working_map {
+    position: relative;
+    &>img {
+      max-width: 1450px;
+      width: 100%;
+    }
+    &>img:nth-of-type(2) {
+      position: absolute;
+      width: 51px;
+      height: 65px;
+      top: 41%;
+      left: 18%;
+    }
+  }
+}
+
 
 
 
