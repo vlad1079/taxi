@@ -538,6 +538,7 @@ header.header {
 .main_we_are_working {
   background-image: url("../image/main/we_are_working/map.png"), linear-gradient(180deg, rgba(30, 30, 30, 0.76) 0%, #000000 100%);
   padding-top: 105px;
+  color: #fff;
 
   &>h2 {
     font-family: $fontRF;
@@ -545,7 +546,6 @@ header.header {
       font-size: 45px;
       line-height: 54px;
       text-align: center;
-      color: #fff;
       padding-bottom: 40px;
   }
 
@@ -585,8 +585,18 @@ header.header {
       left: 84%;
     }
   }
-}
+  .main_we_are_working_contact {
 
+    .main_we_are_working_contact_container {
+      max-width: 1232px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
 
 
 
