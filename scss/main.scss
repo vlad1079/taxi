@@ -585,15 +585,37 @@ header.header {
       left: 84%;
     }
   }
-  .main_we_are_working_contact {
-
-    .main_we_are_working_contact_container {
+  .main_are_working_contact {
+    font-family: $fontRF;
+    & a {
+      color: #fff;
+    }
+    .main_are_working_contact_container {
       max-width: 1232px;
       padding-left: 15px;
       padding-right: 15px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      justify-items: auto;
+
+      &>h2 {
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 54px;
+      }
+      &>p {
+        font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          opacity: 0.4;
+      }
+      &>img {
+        border-radius: 50%;
+        width: 54px;
+        height: 54px;
+        background-color: #fff;
+      }
     }
   }
 }
