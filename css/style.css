@@ -349,7 +349,7 @@ header.header {
   font-family: "RF Dewi Expanded";
   color: #fff; }
   .main .main_join .main_join_container {
-    max-width: 1129px;
+    max-width: 1159px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -402,7 +402,7 @@ header.header {
     padding-bottom: 40px; }
   .main .main_we_are_working .main_we_are_working_map {
     position: relative; }
-    .main .main_we_are_working .main_we_are_working_map > img {
+    .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(1) {
       max-width: 1450px;
       width: 100%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(2) {
@@ -411,5 +411,23 @@ header.header {
       height: 65px;
       top: 41%;
       left: 18%; }
+    .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(3) {
+      position: absolute;
+      width: 51px;
+      height: 65px;
+      top: 60%;
+      left: 32%; }
+    .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(4) {
+      position: absolute;
+      width: 51px;
+      height: 65px;
+      top: 50%;
+      left: 50%; }
+    .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(5) {
+      position: absolute;
+      width: 51px;
+      height: 65px;
+      top: 20%;
+      left: 84%; }
 
 /*# sourceMappingURL=style.css.map */
