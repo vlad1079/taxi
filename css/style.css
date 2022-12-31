@@ -410,19 +410,19 @@ header.header {
       width: 51px;
       height: 65px;
       top: 41%;
-      left: 18%; }
+      left: 15%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(3) {
       position: absolute;
       width: 51px;
       height: 65px;
-      top: 60%;
+      top: 62%;
       left: 32%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(4) {
       position: absolute;
       width: 51px;
       height: 65px;
-      top: 50%;
-      left: 50%; }
+      top: 49%;
+      left: 64%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(5) {
       position: absolute;
       width: 51px;
@@ -430,7 +430,9 @@ header.header {
       top: 20%;
       left: 84%; }
   .main .main_we_are_working .main_are_working_contact {
-    font-family: "RF Dewi Expanded"; }
+    font-family: "RF Dewi Expanded";
+    padding-top: 48px;
+    padding-bottom: 76px; }
     .main .main_we_are_working .main_are_working_contact a {
       color: #fff; }
     .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container {
@@ -439,21 +441,36 @@ header.header {
       padding-right: 15px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      justify-items: auto; }
+      grid-template-columns: minmax(min-content, max-content) minmax(min-content, 569px) minmax(min-content, auto);
+      grid-gap: 60px 55px;
+      place-items: center start; }
+      .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px; }
       .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > h2 {
         font-weight: 700;
         font-size: 45px;
         line-height: 54px; }
       .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > p {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 19px;
-        opacity: 0.4; }
+        opacity: 0.4;
+        place-self: center center; }
       .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > img {
         border-radius: 50%;
         width: 54px;
         height: 54px;
-        background-color: #fff; }
+        background-color: #fff;
+        place-self: center center; }
+      .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > div.div > a {
+        padding-bottom: 8px; }
+      .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > div.div > p {
+        font-family: "RF Dewi";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        opacity: 0.4; }
 
 /*# sourceMappingURL=style.css.map */

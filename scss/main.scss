@@ -561,21 +561,21 @@ header.header {
       width: 51px;
       height: 65px;
       top: 41%;
-      left: 18%;
+      left: 15%;
     }
     &>img:nth-of-type(3) {
       position: absolute;
       width: 51px;
       height: 65px;
-      top: 60%;
+      top: 62%;
       left: 32%;
     }
     &>img:nth-of-type(4) {
       position: absolute;
       width: 51px;
       height: 65px;
-      top: 50%;
-      left: 50%;
+      top: 49%;
+      left: 64%;
     }
     &>img:nth-of-type(5) {
       position: absolute;
@@ -587,6 +587,8 @@ header.header {
   }
   .main_are_working_contact {
     font-family: $fontRF;
+    padding-top: 48px;
+    padding-bottom: 76px;
     & a {
       color: #fff;
     }
@@ -596,8 +598,18 @@ header.header {
       padding-right: 15px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      justify-items: auto;
+      // grid-template-columns: minmax(0, 1.25fr) minmax(0, 1.25fr) minmax(0, 0.25fr);
+      // justify-content: space-between;
+      grid-template-columns: minmax(min-content,max-content) minmax(min-content, 569px) minmax(min-content, auto);
+      grid-gap: 60px 55px;
+      place-items: center start;
+      // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      
+      a {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      }
 
       &>h2 {
       font-weight: 700;
@@ -606,15 +618,29 @@ header.header {
       }
       &>p {
         font-weight: 700;
-          font-size: 16px;
+          font-size: 14px;
           line-height: 19px;
           opacity: 0.4;
+          place-self: center center;
       }
       &>img {
         border-radius: 50%;
         width: 54px;
         height: 54px;
         background-color: #fff;
+        place-self: center center;                                                       
+      }
+      &>div.div {
+        &>a {
+          padding-bottom: 8px;
+        }
+        &>p {
+          font-family: $fontDewi;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 19px;
+          opacity: 0.4;
+        }
       }
     }
   }
