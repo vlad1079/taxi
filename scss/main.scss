@@ -645,8 +645,84 @@ header.header {
     }
   }
 }
+}
 
+.footer {
+background-color: #1E1E1E;
+font-family: $fontDewi;
+color: #fff;
+padding-top: 46px;
+padding-bottom: 58px;
+  .footer_container {
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: minmax(min-content, auto) minmax(min-content, auto);
+    grid-row-gap: 47px;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    .footer_nav {
+      display: flex;
+      column-gap: 30px;
 
+      a {
+        font-weight: 600;
+          font-size: 18.1289px;
+          line-height: 129.19%;
+          color: #fff;
+      }
+    }
+    .footer_logo {
+      // max-width: 260px;
+      display: flex;
+      column-gap: 17px;
+      align-items: center;
+      place-self: center;
+      &>li:first-of-type {
 
-
+      &>img {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        background-color: #fff;
+      }
+    }
+  }
+  .footer_media {
+    max-width: 237px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li:first-of-type {
+      p {
+        font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          opacity: 0.4;
+      }
+    }
+    li:last-of-type {
+      display: flex;
+      column-gap: 11px;
+      align-items: center;
+      img:nth-of-type(2) {
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+  .footer_politeca {
+    max-width: 384px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        opacity: 0.4;
+    }
+  }
+}
 }
