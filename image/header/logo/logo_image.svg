@@ -20,7 +20,7 @@
 <stop offset="0.0509804" stop-color="#915900"/>
 <stop offset="0.121569" stop-color="#B3872C"/>
 <stop offset="0.25098" stop-color="#D6B659"/>
-<stop offset="0.501961" stop-color="#FFF6AC"/>
+<stop offset="0.501961" stop-color="$colorWhite6AC"/>
 <stop offset="0.678431" stop-color="#EBD683"/>
 <stop offset="0.74902" stop-color="#D6B659"/>
 <stop offset="0.870588" stop-color="#B4882D"/>
