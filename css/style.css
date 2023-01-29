@@ -405,7 +405,7 @@ header.header {
       text-align: center;
       color: #000; }
 .main .main_we_are_working {
-  background-image: url("../image/main/we_are_working/map.png"), linear-gradient(180deg, rgba(30, 30, 30, 0.76) 0%, #000000 100%);
+  background-image: url("../image/main/we_are_working/map.png"), linear-gradient(180deg, rgba(30, 30, 30, 0.99) 0%, #000000 100%);
   padding-top: 105px;
   color: #fff; }
   .main .main_we_are_working > h2 {
@@ -416,49 +416,51 @@ header.header {
     text-align: center;
     padding-bottom: 40px; }
   .main .main_we_are_working .main_we_are_working_map {
-    position: relative; }
+    position: relative;
+    background-image: url("../image/main/we_are_working/map_city.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 500px;
+    max-width: 1450px;
+    width: 100%; }
+    .main .main_we_are_working .main_we_are_working_map > img {
+      width: 51px;
+      height: 65px; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(1) {
-      max-width: 1450px;
-      width: 100%; }
+      position: absolute;
+      top: 43%;
+      left: 9%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(2) {
       position: absolute;
-      width: 51px;
-      height: 65px;
-      top: 41%;
-      left: 15%; }
+      top: 64%;
+      left: 29%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(3) {
       position: absolute;
-      width: 51px;
-      height: 65px;
-      top: 62%;
-      left: 32%; }
+      top: 50%;
+      left: 66%; }
     .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(4) {
       position: absolute;
-      width: 51px;
-      height: 65px;
-      top: 49%;
-      left: 64%; }
-    .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(5) {
-      position: absolute;
-      width: 51px;
-      height: 65px;
       top: 20%;
-      left: 84%; }
+      left: 88%; }
   .main .main_we_are_working .main_are_working_contact {
     font-family: "RF Dewi Expanded";
-    padding-top: 48px;
-    padding-bottom: 76px; }
+    padding-top: 52px;
+    padding-bottom: 82px; }
     .main .main_we_are_working .main_are_working_contact a {
       color: #fff; }
     .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container {
       max-width: 1232px;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: minmax(min-content, max-content) minmax(min-content, 569px) minmax(min-content, auto);
-      grid-gap: 60px 55px;
-      place-items: center start; }
+      grid-gap: 67px 55px;
+      place-items: center start;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(4px); }
       .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container a {
         font-weight: 700;
         font-size: 18px;
@@ -852,23 +854,28 @@ header.header {
       line-height: 36px;
       padding-bottom: 13px; }
     .main .main_we_are_working .main_we_are_working_map {
-      position: relative; }
-      .main .main_we_are_working .main_we_are_working_map > img:not(:nth-of-type(1)) {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      max-width: 420px;
+      max-height: 320px;
+      background-image: url("../image/media_header/media_map.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      .main .main_we_are_working .main_we_are_working_map > img {
         width: 30px;
         height: 36px; }
       .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(1) {
-        max-width: 1450px;
-        width: 100%; }
-      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(2) {
         top: 41%;
         left: 15%; }
-      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(3) {
+      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(2) {
         top: 62%;
         left: 32%; }
-      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(4) {
+      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(3) {
         top: 49%;
         left: 64%; }
-      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(5) {
+      .main .main_we_are_working .main_we_are_working_map > img:nth-of-type(4) {
         top: 20%;
         left: 84%; }
     .main .main_we_are_working .main_are_working_contact {
@@ -878,40 +885,72 @@ header.header {
       .main .main_we_are_working .main_are_working_contact a {
         color: #fff; }
       .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container {
-        max-width: 1232px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: minmax(min-content, max-content) minmax(min-content, 569px) minmax(min-content, auto);
-        grid-gap: 60px 55px;
-        place-items: center start; }
+        padding-left: 25px;
+        padding-right: 25px;
+        grid-template-columns: none;
+        grid-gap: 0 0; }
         .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container a {
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 22px; }
+          padding-bottom: 37px; }
+        .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container a:last-of-type {
+          padding-bottom: 0; }
         .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > h2 {
-          font-weight: 700;
-          font-size: 45px;
-          line-height: 54px; }
+          font-size: 30px;
+          line-height: 36px;
+          padding-bottom: 11px; }
         .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > p {
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 19px;
-          opacity: 0.4;
-          place-self: center center; }
+          padding-bottom: 74px; }
         .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > img {
-          border-radius: 50%;
-          width: 54px;
-          height: 54px;
-          background-color: #fff;
-          place-self: center center; }
-        .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > div.div > a {
-          padding-bottom: 8px; }
-        .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > div.div > p {
-          font-family: "RF Dewi";
-          font-weight: 700;
-          font-size: 14px;
+          display: none; }
+        .main .main_we_are_working .main_are_working_contact .main_are_working_contact_container > div.div {
+          padding-bottom: 37px; }
+
+  .footer {
+    padding-top: 36px;
+    padding-bottom: 76px; }
+    .footer .footer_container {
+      grid-template-columns: none;
+      grid-row-gap: 30px;
+      align-items: center;
+      padding-left: 25px;
+      padding-right: 25px; }
+      .footer .footer_container .footer_nav {
+        display: none; }
+        .footer .footer_container .footer_nav a {
+          font-weight: 600;
+          font-size: 18.1289px;
+          line-height: 129.19%;
+          color: #fff; }
+      .footer .footer_container .footer_logo {
+        place-self: start; }
+        .footer .footer_container .footer_logo > li:first-of-type > img {
+          height: 32.15px;
+          width: 23.57px;
+          padding: 9px 13px; }
+        .footer .footer_container .footer_logo > li:last-of-type > img {
+          max-width: 136px; }
+      .footer .footer_container .footer_media {
+        order: 3; }
+        .footer .footer_container .footer_media li:first-of-type p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          opacity: 0.4; }
+        .footer .footer_container .footer_media li:last-of-type {
+          display: flex;
+          column-gap: 11px;
+          align-items: center; }
+          .footer .footer_container .footer_media li:last-of-type img:nth-of-type(2) {
+            width: 21px;
+            height: 21px; }
+      .footer .footer_container .footer_politeca {
+        max-width: 264px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 17px;
+        place-self: start; }
+        .footer .footer_container .footer_politeca p {
+          font-weight: 600;
+          font-size: 16px;
           line-height: 19px;
           opacity: 0.4; } }
 
